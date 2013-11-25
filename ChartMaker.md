@@ -1,1 +1,1 @@
-ChartMaker - A web app that would help create users WBT, GANTT and PERT chart.
+ChartMaker - A web app that would help create users WBT, GANTT and PERT chart. :)
