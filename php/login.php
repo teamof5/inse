@@ -11,6 +11,7 @@
 
 // Getting username and password from the login page (index.html)
 
+session_start();
 $email = $GET_["username"];
 $password = $GET_["password"]
 
@@ -30,6 +31,7 @@ function $authenticate($e,$p){
 
 if ($authenticate($email,$password)) {
 	// Diverting to home page
+	$_SESSION["login_status"] = "true";
 	header ('Location: home.html');
 } else {
 	// Give out error message
