@@ -1,0 +1,205 @@
+body
+{
+    position:relative;
+}
+#drop_gantt
+{
+    position:relative;
+    background: rgb(52, 118, 196);
+    //box-shadow: rgb(0, 0, 0) 6px 6px 14px 0px;
+    height: 500px;
+    margin: 105px auto;
+    width: 54em;
+}
+
+#v_line1
+{   position:absolute;
+    height:500px;
+    width:5px;
+    background:white;
+    left:9em;
+    top:2px;   
+}
+#v_line2
+{
+    position:absolute;
+    height:500px;
+    width:5px;
+    background:white;
+    left:18em;
+    top:2px;
+}
+#v_line3
+{
+    position:absolute;
+    height:500px;
+    width:5px;
+    background:white;
+    left:27em;
+    top:2px;
+}
+#v_line4
+{
+    position:absolute;
+    height:500px;
+    width:5px;
+    background:white;
+    left:36em;
+    top:2px;
+}
+#v_line5
+{
+    position:absolute;
+    height:500px;
+    width:5px;
+    background:white;
+    left:45em;
+    top:2px;
+}
+
+#h_line1
+{
+    position:absolute;
+    background:white;
+    height:5px;
+    width:54em;
+    top:30px;
+    left:0;
+}
+
+
+
+#months
+{
+    position:relative;
+    color:white;
+    width:54em;
+    top:-15px;
+    
+
+}
+
+#sep
+{
+    position:absolute;
+    left:1.5em;
+}
+
+#oct
+{
+    position:absolute;
+    left:10em;
+}
+
+#nov
+{
+    position:absolute;
+    left:17.5em;
+}
+
+#dec
+{
+    position:absolute;
+    left:25em;
+}
+
+#jan
+{
+    position:absolute;
+    left:33em;
+}
+#feb
+{
+    position:absolute;
+    left:40.5em;
+}
+
+
+
+#list_tasks2
+{
+   background: rgb(52, 118, 196);
+    margin:-660px auto;
+height: 50px;
+top: 95px;
+width: 54em; 
+}
+
+
+
+#trash
+{
+left: 50px;
+position: absolute;
+top: 640px;
+}
+
+
+
+
+
+nav
+{
+    font-weight:bold;
+    width:100%;
+    text-align: right;
+    font-size:25px;
+}
+
+nav ul
+{
+   padding: 6px 0 6px 0;
+  margin:0;
+    
+}
+nav ul li
+{
+    display:inline;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 6px 5px 4px 20px;
+    border-bottom: 3px solid white;
+}
+nav ul li a:link
+{
+   color: black; 
+}
+nav ul li a:visited
+{
+color: black;
+}
+nav ul li a:hover
+{
+    border-bottom-color:rgb(52, 118, 196);
+}
+ a:active
+{
+    border-bottom-color:rgb(52, 118, 196);
+}
+
+#button
+{
+    background:#999999;
+    color:white;
+    width:130px;
+    height:35px;
+    border-radius:10px;
+    font-size:20px;
+    text-transform:uppercase;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    border:solid 3px grey;
+    left: 70%;
+    position: absolute;
+    top: 670px;
+}
+#button:active
+{
+    background:white;
+    color:black;
+}

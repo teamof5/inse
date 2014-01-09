@@ -1,0 +1,207 @@
+
+    
+#banner{
+    position:absolute;
+background: rgb(52, 118, 196);
+top:0;
+float: left;
+height: 45px;
+width: 100%;
+}
+#line1
+{
+    background: rgb(41, 41, 41);
+    position:absolute;
+    top:45px;
+    height: 4px;
+    width: 100%;
+}
+
+#footer2
+{
+    background: rgb(41, 41, 41);
+    position:absolute;
+    height: 4px;
+    width: 100%;
+    bottom:240px;
+}
+#footer3
+{
+    background: rgb(41, 41, 41);
+    position:absolute;
+    height: 4px;
+    width: 100%;
+    bottom:20px;
+}
+
+#footer
+{
+background: rgb(52, 118, 196);
+    position:absolute;
+float: left;
+height: 240px;
+bottom:0;
+width: 100%;
+}
+#form_text
+{
+    position:absolute;
+    color:white;
+    bottom:90px;
+    right:87px;
+}
+
+#signUp_button
+{
+    position:absolute;
+    right:80px;
+    bottom:40px;
+    background:white;
+    width:130px;
+    height:50px;
+    border:solid 2px black;
+    text-align:center;
+    font-size:25px;
+    text-transform:uppercase;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    font-family:"Times New Roman", Times, serif;
+    font-style:oblique;
+}
+#signUp_button:active
+{
+    background:rgb(52, 118, 196);
+    color:white;
+}
+
+
+
+#formLogin
+{
+    position:relative;
+    margin:250px auto;
+    width:170px;
+    height:100px;
+}
+#password,#username
+{
+    
+    border:2px solid black;
+    height:20px;
+    margin-top:10px;
+}
+
+#login_button
+{
+    background:white;
+    color:black;
+    font-size:20px;
+    border:solid 2px black;
+     font-style:oblique;
+    font-weight:bold;
+    margin-top:10px;
+    outline:none;
+}
+#login_button:active
+{
+    background:grey;
+    color:white;
+}
+
+#text_intro
+{
+    position:relative;
+    margin:-500px auto;
+    width:400px;
+    height:100px;
+
+}
+#text_intro2
+{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+    color:white;
+    font-style:italic;
+    font-size:20px;
+}
+#home
+{
+    position:absolute;
+    top:10px;
+    left:20px;
+    z-index:1;
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+    font-weight:bold;
+}
+
+
+
+#formSign
+{
+     position:relative;
+    margin:250px auto;
+    width:170px;
+    height:130px;
+}
+
+#sign_button
+{
+  background:white;
+    color:black;
+    font-size:20px;
+    border:solid 2px black;
+    font-style:oblique;
+    font-weight:bold;
+    margin-top:10px;
+    outline:none;
+}
+
+#sign_button:active
+{
+    background:grey;
+    color:white;
+}
+
+#help
+{
+    position:absolute;
+    width:350px;
+    right:150px;
+    top:150px;
+    
+}
+
+#vert_line
+{
+    position:relative;
+    width:5px;
+    height:500px;
+    background:grey;
+    margin:20px auto;
+}
+
+#title_ch
+{
+    position:absolute;
+    top:150px;
+    left:150px;
+}
+
+#createNew
+{
+    position:absolute;
+    top:5px;
+    right:20px;
+    z-index:1;
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    background:white;
+    padding:3px;
+    border:2px solid black;
+}
