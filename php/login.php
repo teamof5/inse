@@ -1,6 +1,8 @@
 <?php
 
 /* 
+   INSE - PORTSMOUTH UNIVERSITY
+   
    09 Jan 2014
    Ver 1. Created the page with a very few lines of code to receive data from form - K
    Ver 2. Added a function $authenticate which will return true on valid email and password entered - K 
