@@ -17,7 +17,7 @@ $password = $GET_["password"]
 
 
 /* The following is dummy authentication function
-   Will be edited when databse is created */
+   Will be edited when database is created */
    
 function $authenticate($e,$p){
 	// +++ INCLUDING DATABASE HERE +++
@@ -35,6 +35,7 @@ if ($authenticate($email,$password)) {
 	header ('Location: home.html');
 } else {
 	// Give out error message
+	echo "Invalid Username or Password";
 }
 
 
