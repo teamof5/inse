@@ -1,15 +1,21 @@
 body {
 margin: 0px;
+font-family: Helvetica, tahoma, arial;
+background: #0072bc;
 }
     
 #banner{
-    position:absolute;
-background: rgb(52, 118, 196);
+float: left;
+background: #0072bc;
 top:0;
 float: left;
 height: 45px;
+min-width: 600px;
 width: 100%;
+border-bottom: 2px solid #333;
 }
+a {text-decoration: none}
+a:hover {color: #fff}
 #line1
 {
     background: rgb(41, 41, 41);
@@ -30,24 +36,27 @@ width: 100%;
 #footer3
 {
     background: rgb(41, 41, 41);
-    position:absolute;
+float: left;
     height: 4px;
+    min-width: 600px;
     width: 100%;
     bottom:20px;
 }
 
 #footer
 {
-background: rgb(52, 118, 196);
-    position:absolute;
+background: #0072bc;
+
 float: left;
-height: 240px;
+height: 50px;
 bottom:0;
+top: 0;
 width: 100%;
 }
 #form_text
 {
-    position:absolute;
+
+    float: left;
     color:white;
     bottom:90px;
     right:87px;
@@ -55,9 +64,7 @@ width: 100%;
 
 #signUp_button
 {
-    position:absolute;
-    right:80px;
-    bottom:40px;
+    
     background:white;
     width:130px;
     height:50px;
@@ -68,12 +75,12 @@ width: 100%;
     outline:none;
     text-align:center;
     font-weight:bold;
-    font-family:"Times New Roman", Times, serif;
     font-style:oblique;
+    cursor: pointer;
 }
 #signUp_button:active
 {
-    background:rgb(52, 118, 196);
+    background:#0072bc;
     color:white;
 }
 
@@ -81,12 +88,19 @@ width: 100%;
 
 #formLogin
 {
-    position:relative;
-    margin:250px auto;
+
     width:170px;
     height:100px;
 }
 #password,#username
+{
+    
+    border:2px solid black;
+    height:20px;
+    margin-top:10px;
+}
+
+.signup
 {
     
     border:2px solid black;
@@ -104,6 +118,7 @@ width: 100%;
     font-weight:bold;
     margin-top:10px;
     outline:none;
+    cursor: pointer;
 }
 #login_button:active
 {
@@ -113,30 +128,35 @@ width: 100%;
 
 #text_intro
 {
-    position:relative;
+	background: #fff;
+    float: left;
     margin:-500px auto;
     width:400px;
     height:100px;
+    color: #000;
 
 }
 #text_intro2
 {
-    position:absolute;
-    bottom:10px;
-    left:20px;
+    float: left;
+    //bottom:10px;
+    padding-left:20px;
     color:white;
-    font-style:italic;
+    //font-style:italic;
     font-size:20px;
+    width: 500px;
 }
 #home
 {
-    position:absolute;
-    top:10px;
-    left:20px;
+    float: right;
+
+
+    padding-top: 3px;
+
     z-index:1;
     color:white;
     text-decoration:none;
-    font-size:25px;
+    font-size:16px;
     font-weight:bold;
 }
 
@@ -144,10 +164,9 @@ width: 100%;
 
 #formSign
 {
-     position:relative;
-    margin:250px auto;
-    width:170px;
-    height:130px;
+ 
+
+
 }
 
 #sign_button
@@ -160,6 +179,7 @@ width: 100%;
     font-weight:bold;
     margin-top:10px;
     outline:none;
+    cursor: pointer;
 }
 
 #sign_button:active
@@ -170,40 +190,71 @@ width: 100%;
 
 #help
 {
-    position:absolute;
-    width:350px;
-    right:150px;
-    top:150px;
-    
+padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+    float: left;
+
+    width: 400px;
+    border-left: 4px solid #999;
+        background: #fff;
+    text-align: left;
 }
 
+/*
 #vert_line
 {
-    position:relative;
+padding: 20px;
+padding-top: 150px;
+   float: left;
     width:5px;
     height:500px;
     background:grey;
     margin:20px auto;
-}
+} 
+*/
 
 #title_ch
 {
-    position:absolute;
-    top:150px;
-    left:150px;
+padding: 20px;
+text-align: left;
+    width: 400px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+    float: left;
+    background: #fff;
+
+
+
+}
+
+.signholder {
+padding: 4px;
+padding-top: 12px;
+padding-right: 20px;
+float: right;
+}
+
+.signholderLeft {
+padding: 4px;
+padding-top: 12px;
+padding-left: 20px;
+float: left;
+color: #fff;
 }
 
 #createNew
 {
-    position:absolute;
+	margin-top: -3px;
+    float: right;
     top:5px;
     right:20px;
     z-index:1;
     color:black;
     text-decoration:none;
-    font-size:20px;
+    font-size:16px;
     font-weight:bold;
     background:white;
-    padding:3px;
-    border:2px solid black;
+    padding:4px;
+    border:1px solid black;
 }

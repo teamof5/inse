@@ -1,0 +1,37 @@
+[17-Feb-2014 12:51:40] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home4/autohigh/public_html/_webs/kejayweb/inse/index.php on line 4
+[17-Feb-2014 15:18:17] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/autohigh/public_html/_webs/kejayweb/inse/home.php on line 4
+[17-Feb-2014 15:18:17] PHP Parse error:  syntax error, unexpected ')' in /home4/autohigh/public_html/_webs/kejayweb/inse/home.php on line 4
+[18-Feb-2014 06:25:02] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 55
+[18-Feb-2014 06:25:06] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 55
+[18-Feb-2014 06:25:45] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:26:21] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:27:25] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:28:13] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:28:23] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:32:12] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 06:34:25] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 56
+[18-Feb-2014 10:55:54] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=true' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 159
+[18-Feb-2014 10:57:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=true' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 159
+[18-Feb-2014 10:57:53] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=true' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 159
+[18-Feb-2014 10:59:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=true' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 159
+[18-Feb-2014 12:37:47] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=2' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 49
+[18-Feb-2014 12:37:49] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'php/load-chart.php?jr=2' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 49
+[18-Feb-2014 13:25:50] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart-jquery-code.php on line 37
+[18-Feb-2014 13:25:50] PHP Parse error:  syntax error, unexpected T_STRING in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart-jquery-code.php on line 48
+[21-Feb-2014 09:36:57] PHP Parse error:  syntax error, unexpected T_STRING in /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php on line 2
+[21-Feb-2014 13:46:06] PHP Parse error:  syntax error, unexpected '$' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 49
+[21-Feb-2014 13:46:38] PHP Parse error:  syntax error, unexpected '$' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 49
+[21-Feb-2014 14:34:01] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 57
+[21-Feb-2014 14:34:50] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 57
+[21-Feb-2014 14:34:51] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 57
+[21-Feb-2014 14:35:39] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 64
+[21-Feb-2014 14:35:58] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 59
+[21-Feb-2014 14:36:00] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 59
+[21-Feb-2014 14:37:40] PHP Parse error:  syntax error, unexpected ':' in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 59
+[21-Feb-2014 16:22:30] PHP Fatal error:  Call to a member function query() on a non-object in /home4/autohigh/public_html/_webs/kejayweb/inse/home.php on line 37
+[21-Feb-2014 16:34:10] PHP Parse error:  syntax error, unexpected '>' in /home4/autohigh/public_html/_webs/kejayweb/inse/home.php on line 46
+[04-Mar-2014 16:52:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php:41) in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 98
+[04-Mar-2014 16:53:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/autohigh/public_html/_webs/kejayweb/inse/wbt.php:41) in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 98
+[04-Mar-2014 16:54:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php:1) in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 98
+[04-Mar-2014 16:54:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php:1) in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 98
+[04-Mar-2014 16:54:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php:1) in /home4/autohigh/public_html/_webs/kejayweb/inse/php/load-chart.php on line 98

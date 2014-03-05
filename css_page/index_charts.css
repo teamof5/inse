@@ -7,29 +7,34 @@ body
 #pannel
 {
     background: rgb(52, 118, 196);
-    box-shadow: rgb(0, 0, 0) 6px 6px 14px 0px;
+    //box-shadow: rgb(0, 0, 0) 6px 6px 14px 0px;
     height: 150px;
-    width: 230px;
-    left: 100px;
-    position: absolute;
-    top: 146px;
+    width: 170px;
+    //left: 100px;
+    float: left;
+    //top: 146px;
+    padding: 10px;
+    border-right: 10px solid #fff;
+    
 
 }
 
 #droppable
 {
 background: rgb(52, 118, 196);
-  box-shadow: rgb(0, 0, 0) 6px 6px 14px 0px;
-height: 550px;
-margin: 105px 0 0 30%;
-width: 53em;
+//box-shadow: rgb(0, 0, 0) 6px 6px 14px 0px;
+height: 600px;
+//margin: 105px 0 0 30%;
+width: 780px;
+float: left;
 }
 
 #trash
 {
-left: 150px;
-position: absolute;
-top: 640px;
+//left: 150px;
+//position: absolute;
+//top: 640px;
+width: 400px;
 }
 
 
@@ -115,7 +120,7 @@ width: 55em;
 }
 #pull
 {
-    position:relative;
+
     left:155px;
     top:-509px;
     z-index:49;
@@ -123,7 +128,7 @@ width: 55em;
 }
 #pull_textarea
 {
-    position:absolute;
+
     top:5px;
     left:16px;
     resize:none;
@@ -145,9 +150,9 @@ width: 55em;
 }
 #vertical
 {
-   position:absolute;
-    top:188px;
-    left:130px;
+ 
+    //top:188px;
+    //left:130px;
 }
 .horizontal
 {
@@ -156,16 +161,16 @@ width: 55em;
     min-width:20px;
     height:5px;
     max-height:5px;
-     background: linear-gradient(90deg, rgb(52, 118, 196) 90%, white 10%);
+    background: linear-gradient(90deg, rgb(52, 118, 196) 90%, white 10%);
     border:1px solid white;
     
 }
 #horizontal
 {
 
-    position:absolute;
-    top:232px;
-    left:270px; 
+   
+    //top:232px;
+    //left:270px; 
 }
 
 
@@ -183,7 +188,7 @@ width: 55em;
     font-weight:bold;
     border:solid 3px grey;
     left: 75%;
-    position: absolute;
+
     top: 715px;
 }
 #button:active
@@ -211,7 +216,7 @@ width: 55em;
 }
 #n1
 {
-    position:absolute;
+    //position:absolute;
     top:0;
     left:0;
     width:20px;
@@ -227,7 +232,7 @@ width: 55em;
 }
 #n3
 {
-    position:absolute;
+
     bottom:0;
     left:0;
     width:20px;

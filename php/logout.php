@@ -8,5 +8,5 @@
 session_start();
 $_SESSION["login_status"] = "";
 session_destroy();
-
+header ('Location: ../');
 ?>

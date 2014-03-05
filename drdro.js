@@ -1,7 +1,7 @@
 var x = null;
 $(function(){
                      
-        $(".pull,.vertical,.horizontal,.pull_pert").draggable({
+        $(".pull,.vertical,.horizontal,.pull_pert,.slant").draggable({
         
             helper: 'clone',
             cursor: 'move', 
@@ -11,7 +11,7 @@ $(function(){
     
     
         $("#droppable").droppable({
-            accept: '.pull,.horizontal,.vertical,.pull_pert',
+            accept: '.pull,.horizontal,.vertical,.pull_pert,.slant',
           
             drop: function (e, ui) {
                 if ($(ui.draggable)[0].id != "") {

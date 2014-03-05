@@ -27,16 +27,6 @@ LSA Timestamp: 22.501
   Link Type: Point-To-Point, Link ID: 192.0.17.1, Link Data: 192.0.6.1, Link Cost: 5,
   Link Type: Stub Network, Link ID: 192.0.6.0, Link Data: 255.255.255.0, Link Cost: 5,
  
-LSA Type: Router Links, Link State ID: 192.0.13.1, Adv Router ID: 192.0.13.1 Sequence Number: 48, LSA Age: 3
-LSA Timestamp: 24.295
-  Link Type: Stub Network, Link ID: 192.0.13.1, Link Data: 255.255.255.0, Link Cost: 0,
-  Link Type: Point-To-Point, Link ID: 192.0.12.1, Link Data: 192.0.1.2, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.1.0, Link Data: 255.255.255.0, Link Cost: 5,
-  Link Type: Point-To-Point, Link ID: 192.0.14.1, Link Data: 192.0.2.1, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.2.0, Link Data: 255.255.255.0, Link Cost: 5,
-  Link Type: Point-To-Point, Link ID: 192.0.17.1, Link Data: 192.0.11.1, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.11.0, Link Data: 255.255.255.0, Link Cost: 5,
- 
 LSA Type: Router Links, Link State ID: 192.0.14.1, Adv Router ID: 192.0.14.1 Sequence Number: 49, LSA Age: 4
 LSA Timestamp: 24.295
   Link Type: Stub Network, Link ID: 192.0.14.1, Link Data: 255.255.255.0, Link Cost: 0,
@@ -55,16 +45,6 @@ LSA Timestamp: 24.295
   Link Type: Point-To-Point, Link ID: 192.0.14.1, Link Data: 192.0.10.2, Link Cost: 10,
   Link Type: Stub Network, Link ID: 192.0.10.0, Link Data: 255.255.255.0, Link Cost: 10,
  
-LSA Type: Router Links, Link State ID: 192.0.17.1, Adv Router ID: 192.0.17.1 Sequence Number: 51, LSA Age: 5
-LSA Timestamp: 24.931
-  Link Type: Stub Network, Link ID: 192.0.17.1, Link Data: 255.255.255.0, Link Cost: 0,
-  Link Type: Point-To-Point, Link ID: 192.0.16.1, Link Data: 192.0.6.2, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.6.0, Link Data: 255.255.255.0, Link Cost: 5,
-  Link Type: Point-To-Point, Link ID: 192.0.18.1, Link Data: 192.0.7.1, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.7.0, Link Data: 255.255.255.0, Link Cost: 5,
-  Link Type: Point-To-Point, Link ID: 192.0.13.1, Link Data: 192.0.11.2, Link Cost: 5,
-  Link Type: Stub Network, Link ID: 192.0.11.0, Link Data: 255.255.255.0, Link Cost: 5,
- 
 LSA Type: Router Links, Link State ID: 192.0.18.1, Adv Router ID: 192.0.18.1 Sequence Number: 52, LSA Age: 6
 LSA Timestamp: 24.931
   Link Type: Stub Network, Link ID: 192.0.18.1, Link Data: 255.255.255.0, Link Cost: 0,
@@ -82,6 +62,22 @@ LSA Timestamp: 27.501
   Link Type: Stub Network, Link ID: 192.0.3.0, Link Data: 255.255.255.0, Link Cost: 20,
   Link Type: Point-To-Point, Link ID: 192.0.16.1, Link Data: 192.0.4.1, Link Cost: 20,
   Link Type: Stub Network, Link ID: 192.0.4.0, Link Data: 255.255.255.0, Link Cost: 20,
+ 
+LSA Type: Router Links, Link State ID: 192.0.13.1, Adv Router ID: 192.0.13.1 Sequence Number: 284, LSA Age: 3
+LSA Timestamp: 105.000
+  Link Type: Stub Network, Link ID: 192.0.13.1, Link Data: 255.255.255.0, Link Cost: 0,
+  Link Type: Point-To-Point, Link ID: 192.0.12.1, Link Data: 192.0.1.2, Link Cost: 5,
+  Link Type: Stub Network, Link ID: 192.0.1.0, Link Data: 255.255.255.0, Link Cost: 5,
+  Link Type: Point-To-Point, Link ID: 192.0.14.1, Link Data: 192.0.2.1, Link Cost: 5,
+  Link Type: Stub Network, Link ID: 192.0.2.0, Link Data: 255.255.255.0, Link Cost: 5,
+ 
+LSA Type: Router Links, Link State ID: 192.0.17.1, Adv Router ID: 192.0.17.1 Sequence Number: 285, LSA Age: 5
+LSA Timestamp: 105.000
+  Link Type: Stub Network, Link ID: 192.0.17.1, Link Data: 255.255.255.0, Link Cost: 0,
+  Link Type: Point-To-Point, Link ID: 192.0.16.1, Link Data: 192.0.6.2, Link Cost: 5,
+  Link Type: Stub Network, Link ID: 192.0.6.0, Link Data: 255.255.255.0, Link Cost: 5,
+  Link Type: Point-To-Point, Link ID: 192.0.18.1, Link Data: 192.0.7.1, Link Cost: 5,
+  Link Type: Stub Network, Link ID: 192.0.7.0, Link Data: 255.255.255.0, Link Cost: 5,
  
  
 [Network Links Advertisements for Area 0.0.0.0]

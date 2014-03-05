@@ -4,50 +4,202 @@
 			<meta charset="UTF-8">
 			<title>WBT</title>
 			<meta name="description" content="INSE CourseWork">
+			<link rel="stylesheet" type="text/css" href="css_page/index_home.css"/>
 			<link rel="stylesheet" type="text/css" href="css_page/index_charts.css"/>
- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-            <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/cupertino/jquery-ui.css" />
- <script src="drdro.js"></script>
+
+   
+   
 		  </head>
 		
 		<body>
-			<header>
-				<nav>
-                    <ul>
-					<li><a  href="create_WBT.html">WBT</a></li>
-					<li><a  href="create_PERT.html">PERT</a></li>
-                   <li> <a  href="create_GANTT.html">GANTT</a></li>
-                    <li> <a  href="home.html">HOME</a></li>
-                    </ul>    
-				</nav>	
-				
-			</header>
+		
+		            <div id="banner">
             
-            <section>
-               
-            <div id="pannel"></div>       
-         <div id="trash">
-            <img  src="img/trash.png" width="72px" height="70px" alt="Trash">
+            <div class="signholderLeft">Welcome, <b><?php echo $_SESSION["name"];?></b>
+            <?php //echo $_SESSION["email"];?><a style="color: #cecece" href="php/logout.php">(Logout?)</a></div>
+            <div class="signholder"><a  href="create_GANTT.html">GANTT</a></div>
+            <div class="signholder"><a  href="create_PERT.html">PERT</a></div>
+            <div class="signholder"><a  href="create_WBT.html">WBT</a></div>
             </div>
-	    <div id="droppable"></div>
-        
-
-
+            
+            
+			
+			
+			 <div style="width: 100%; background: #fff; float: left" align="center">
+        		<div style="width: 980px; border: 1px solid red; padding-top: 10px">	
+			
+            
+          
+               
+               
+               
+               
+            <div id="pannel">
             
             <div class="pull" id="pull">
                 
                 <textarea name="getInput" cols="5" rows="2" id="pull_textarea"></textarea>
-                 
-            </div>
-              <div class="vertical" id="vertical"></div>
+                
+                 <div class="vertical" id="vertical"></div>
               <div class="horizontal" id="horizontal"></div>
-               <input id="button" type="submit" value="Save" name="trim"> 
+            
+              
+               <input id="button" type="submit" value="Save" name="trim">
+            
+            
+            </div>
+            
+            </div>   
+            
+            
+            
+            
+            
+            
+                
+         
+	   
+	   
+	   
+	   
+	   
+	    <div id="droppable">
+	    
+	    
+	    
+	    
+	    
+	    
+	    <div style="position: absolute; left: 510px; top: 205px;" class="pull ui-draggable ui-draggable-dragging ui-resizable remove" id="dde">
+<textarea name="getInput" cols="5" rows="2" id="pull_textarea"></textarea>
+<div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-n"></div>
+<div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-e"></div>
+</div>
+            
+            
+<div style="position: absolute; left: 494px; top: 282px;" class="pull ui-draggable ui-draggable-dragging ui-resizable remove">
+<textarea name="getInput" cols="5" rows="2" id="pull_textarea"></textarea>
+<div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-n"></div><div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-e"></div>
+</div>
+            
+            
+<div style="position: absolute; left: 469px; top: 380px;" class="pull ui-draggable ui-draggable-dragging ui-resizable remove">
+<textarea name="getInput" cols="5" rows="2" id="pull_textarea"></textarea>
+<div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-n"></div><div style="z-index: 90; display: block;" class="ui-resizable-handle ui-resizable-e"></div>
+</div>
+         
+         
+         
+	    
+	    
+	    
+	    
+   
+</div>
+
+
+
+        
+
+
+<div id="trash">
+            <img  src="img/trash.png" width="72px" height="70px" alt="Trash">
+            </div>
+
+            
+             
                  
                  
             
                
-            </section>		
+           	</div></div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+<div id="the_canvas_element_id" style="border: 1px solid red">
+
+HI
+
+
+
+
+<button class="btn example1" onClick="copy();">Test on this page</button>
+
+
+<button class="btn example1" onClick="copyhtml();">CASD on this page</button>
+</div>
+
+	
 
 	</body>
+	
+	
+	
+	
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/cupertino/jquery-ui.css" />
+ <script src="drdro.js"></script>
+ <script src="js/html2canvas.js"></script>
+   
+ 
+<script>
+
+function copy(){
+    html2canvas(document.getElementById("droppable"), {
+    onrendered: function(canvas) {
+    document.body.appendChild(canvas);
+    }
+    });
+    }
+    
+    
+    
+    function copyhtml(){
+    
+    var a= document.getElementById("droppable").innerHTML;
+    
+    alert (a);
+    
+    }
+    
+    
+
+
+
+
+
+	
+
+/*added by K gurung to make saved files editable */
+$( "#dde" ).mouseleave(function() {
+	$( "#dde" ).hide();
+});
+
+
+
+
+
+
+		
+		
+		
+		
+		
+
+</script>
+
+
 </html>
+
